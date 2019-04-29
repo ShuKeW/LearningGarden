@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="window_background_color">#F7F8FA</color>
+    <color name="white_background_color">#FFFFFF</color>//白色背景块
+    <color name="status_bar_color">#FFFFFF</color>//状态栏
+
+    <color name="primary_blue_color">#4E88F0</color>//主色，用于重要内容背景、选中样式、文字链接颜色、按钮颜色
+    <color name="primary_green_color">#4DB872</color>//用于买入、手续费等级颜色
+    <color name="primary_red_color">#EE6560</color>//用于卖出、错误提示颜色
+    <color name="primary_orange_color">#FF9E08</color>//用于重点突出、警示颜色
+
+    <color name="title_color">#333333</color>//重要文字用色，eg标题
+    <color name="subtitle_color">#666666</color>//用于副标题，文本颜色
+    <color name="text_color">#999999</color>//用于备注，说明性文字
+    <color name="hint_color">#CCCCCC</color>//用于占位符
+</resources>

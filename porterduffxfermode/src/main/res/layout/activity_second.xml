@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             android:id="@+id/root_layout"
+                                             android:background="@color/window_background_color"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    <!--<TextView-->
+    <!--android:id="@+id/text_content"-->
+    <!--android:layout_marginTop="30dp"-->
+    <!--app:layout_constraintTop_toTopOf="parent"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textColor="@color/title_color"-->
+    <!--android:textSize="14sp"-->
+    <!--android:text="    返回缓存此视图绘图的位图。当缓存被禁用时，返回的位图为空。-->
+    <!--如果启用了缓存而缓存没有准备好，则此方法将创建缓存。当缓存启用时，调用draw(android.graphics.Canvas)将不会从缓存中进行绘制。-->
+    <!--为了从缓存中获益，您必须通过调用此方法请求绘图缓存，并在返回的位图不为空的情况下在屏幕上绘制它。-->
+    <!--注意兼容性模式下的自动缩放:当不启用自动缩放时，此方法将创建与此视图相同大小的位图。-->
+    <!--因为这个位图将被父视图组缩放，所以屏幕上的结果可能会显示缩放工件。-->
+    <!--为了避免这些工件，您应该通过将auto scaling设置为true来调用这个方法。-->
+    <!--但是，这样做将生成与视图大小不同的位图。这意味着您的应用程序必须能够处理这个大小。"/>-->
+
+    <!--<com.porterduffxfermode.UntouchableSwitchCompat-->
+    <!--android:id="@+id/switch_color"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--app:layout_constraintRight_toRightOf="parent"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--android:layout_marginRight="50dp"-->
+    <!--android:layout_marginBottom="50dp"/>-->
+
+</android.support.constraint.ConstraintLayout>
