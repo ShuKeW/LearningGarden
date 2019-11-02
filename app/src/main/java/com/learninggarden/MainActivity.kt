@@ -13,25 +13,25 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        editText = findViewById(R.id.editText)
-        editText.filters = arrayOf(object : InputFilter {
-            override fun filter(
-                source: CharSequence?,
-                start: Int,
-                end: Int,
-                dest: Spanned?,
-                dstart: Int,
-                dend: Int
-            ): CharSequence? {
-                Log.e("aaa","source:$source")
-                Log.e("aaa","start:$start")
-                Log.e("aaa","end:$end")
-                Log.e("aaa","dest:$dest")
-                Log.e("aaa","dstart:$dstart")
-                Log.e("aaa","dend:$dend")
-                return null
-            }
-
-        })
+//        editText = findViewById(R.id.editText)
+//        editText.filters = arrayOf(object : InputFilter {
+//            override fun filter(
+//                source: CharSequence?,
+//                start: Int,
+//                end: Int,
+//                dest: Spanned?,
+//                dstart: Int,
+//                dend: Int
+//            ): CharSequence? {
+//                Log.e("aaa","source:$source")
+//                Log.e("aaa","start:$start")
+//                Log.e("aaa","end:$end")
+//                Log.e("aaa","dest:$dest")
+//                Log.e("aaa","dstart:$dstart")
+//                Log.e("aaa","dend:$dend")
+//                return null
+//            }
+//
+//        })
     }
 }

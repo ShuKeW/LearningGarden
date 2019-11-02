@@ -1,11 +1,22 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+
+repositories {
+    jcenter()
+    google()
+    maven { url 'https://mobile-sdk.jumio.com' }
+}
+
+ext {
+    SDK_VERSION = "2.14.0"
+}
+
 android {
     compileSdkVersion COMPILE_SDK_VERSION
 
     defaultConfig {
-        applicationId "learninggarden.com.aac"
+        applicationId "test.com.netverify_demo"
         minSdkVersion MIN_SDK_VERSION
         targetSdkVersion TARGET_SDK_VERSION
         versionCode 1
@@ -18,12 +29,8 @@ android {
     buildTypes {
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
-    }
-
-    dataBinding {
-        enabled = true
     }
 
 }
@@ -36,5 +43,4 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    implementation "android.arch.work:work-runtime:+"
 }
